@@ -102,7 +102,6 @@ if(mousePressed && mouseX > catX && mouseX < catX + 150 && mouseY > 400 && mouse
   if(keyCode == UP){
     showpic = false;
     image(rainy, 115, 72, 140, 170);
-    happiness = happiness +1;
   } else {
     showpic = true;
     image(sunflower, 115, 72, 140, 170); 
@@ -140,7 +139,7 @@ if(mousePressed && mouseX > catX && mouseX < catX + 150 && mouseY > 400 && mouse
    }
    
 //rules and commands//
-    fill(165, 91, 21);
+    fill(0);
     rect(20, 20, 85, 20);
     fill(255);
     textFont(reg);
@@ -152,12 +151,14 @@ if(mousePressed && mouseX > catX && mouseX < catX + 150 && mouseY > 400 && mouse
       fill(0);
       text("Congratulations on adopting your cat!", 120, 100);
       text("Rules and Commands", 50, 150);
-      text("Press ENTER to feed your kitty, and SHIFT to start feeding again.", 50, 180);
-      text("Press TAB to turn on the light, and CONTROL to turn it off.",50, 210);
-      text("Click on your kitty to hear him meow and make him happy!", 50, 240);
-      text("Try to keep the happiness as high as you can.", 50, 270);
-      text("Move your kitty around using right and left arrow keys.", 50, 300);
-      text("Change the picture with the UP arrow key.", 50, 330);
+      text("Kitty is a perfect desktop companion for a long paper or long day!", 50, 180);
+      text("Press ENTER to feed your kitty, and SHIFT to start feeding again.", 50, 240);
+      text("Press TAB to turn on the light, and CONTROL to turn it off.",50, 270);
+      text("Click on your kitty to hear him meow and make him happy!", 50, 300);
+      text("Try to keep the happiness as high as you can.", 50, 330);
+      text("Move your kitty around using right and left arrow keys.", 50, 360);
+      text("Change the picture with the UP arrow key.", 50, 390);
+      text("If the happiness reaches zero, it's game over!", 50, 420);
       }
       
  //gameover//
