@@ -1,4 +1,7 @@
 # catfinal
+My goal was to make a cute, fun, intuitive desktop pet. I kept things simple to use, wanting to echo some of the feelings of a tamagotchi from my childhood. I want people to be able to enjoy it, especially those who may not have the time or space for a real pet cat. 
+
+
 What are you making?
 I have made an interactive digital pet cat.
 
