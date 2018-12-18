@@ -25,12 +25,14 @@ void setup(){
     reg = createFont("acme.ttf", 15);
 //images//
     cat = loadImage("cats.png");
+    //cat[1] = loadImage("cats2.png");
     sunflower = loadImage("sun.jpg");
     rainy = loadImage("rain.jpg");
 //sounds//
     minim = new Minim(this);
     purr = minim.loadFile("purr.mp3");
     meow = minim.loadFile("meow.wav");
+//frameRate(1);
 }
 
 void draw(){
